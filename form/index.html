@@ -1,0 +1,39 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>formularios</title>
+</head>
+<body>
+        <fieldset>
+            <form>
+                <label for="Nome"> Nome: </label>
+                <input id="Nome" type="text"  placeholder="Nome Completo" required> <br> <br>
+                <label for="Sexo"> Sexo:<br></label>
+                <input id="Sexo" type="radio" name="Sexo" required>Masculino
+                <input id="Sexo" type="radio" name="Sexo" required>Feminino <br> <br>
+                <label for="EstadoCivil">Estado: <br></label>
+                <select id="EstadoCivil" placeholder="Selecione" required>
+                    <option>Selecione</option>
+                    <option>Solteiro(a)</option>
+                    <option>Casado(a)</option>
+                    <option>Divorciado(a)</option>
+                    <option>Viúvo(a)</option>
+                    <option>Outro</option>
+                    </select>
+                    <br><br>
+                <label for="Email"> Email: <br></label>
+                <input id="Email" type="email" required> <br> <br>
+                <label for="Endereço">Endereço:<br></label>
+                <input id="Endereço" type="text" required> <br> <br>
+                <label for="Numero">Numero:<br></label>
+                <input id="Numero" type="number" min="1" max="9999" required> <br> <br>
+                <label for="Data de Nascimento">Data de Nascimento: </label> <br>
+                <input id="Data de Nascimento" type="date" required> <br> <br>    
+                
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">    
+            </form>
+        </fieldset>
+</body>
+</html>
