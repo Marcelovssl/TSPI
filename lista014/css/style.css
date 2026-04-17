@@ -1,0 +1,83 @@
+h1.Exercicio01 {
+    font-size: 25px;          
+    font-weight: bold;         
+    font-family: Verdana; 
+    letter-spacing: 4px;      
+    border-bottom: 2px solid red; 
+    background-color: yellow; 
+    color: darkgreen;                     
+}
+
+p.Exercicio01 {
+    background-color: lightgray; 
+    font-size: 18px;             
+    color: green;                
+    line-height: 200%;              
+    font-style: italic;          
+    font-family: Tahoma; 
+    text-align: center;                       
+}
+h1, h2.Situacao01 {
+    background-color: yellow; 
+    color: red;               
+}
+
+div.Exercicio03 {
+    background-color: #CAF3FF;   
+    border-left: 10px solid #FF3300;  
+    border-right: 10px solid #FF3300;               
+    margin: 50px;                
+}
+
+.configuracao {
+    background-color: yellow; 
+    color: red;              
+    padding: 5px;             
+    margin-bottom: 5px;       
+}
+
+h1.configuracao {
+    font-weight: bold;        
+}
+
+h2.configuracao {
+    text-decoration: underline; 
+    font-weight: bold;           
+}
+
+p.configuracao {
+    font-weight: normal;      
+}
+
+strong.configuracao {
+    display: block;      
+    font-weight: bold;
+    background-color: yellow;
+    padding: 5px;
+    margin-bottom: 5px; 
+    font-size: 20px;
+}
+
+.caixa {
+    border: 5px dashed blue;  
+    padding: 20px;            
+    margin: 30px 0;           
+    color: red;               
+    text-align: center;       
+}
+
+h1.Exercicio03 {
+    font-size: 30px;             
+    border-bottom: 1px solid #FF3300;
+    padding-top: 50px;       
+    padding-bottom: 5px;
+    margin-left: 16px;
+    margin-right: 16px; 
+}
+
+p.Exercicio03 {
+    line-height: 2;              
+    font-size: 14px;
+    margin: 16px;   
+    padding-bottom: 40px;    
+}
