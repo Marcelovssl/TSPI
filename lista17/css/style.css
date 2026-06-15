@@ -115,21 +115,26 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+    img{
+    max-width: 100%;
+    height: auto;
+    }
+    
     nav ul{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
     }
 
     nav ul li{
+        width: 100%;
+    }
+
+    nav ul li a{
         display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
     }
-
-    nav a{
-        padding: 12px 8px;
-        font-size: 12px;
     }
-
     section{
         padding: 25px 15px;
     }
