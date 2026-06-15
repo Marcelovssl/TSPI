@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+nav {
+    background-color: #e85d04;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 18px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #e85d04;
+}
+
+.topo {
+    background-color: #003087;
+    padding: 30px 20px;
+}
+
+.caixa-topo {
+    background-color: #fff;
+    border: 3px solid #e85d04;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.caixa-topo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    color: #111;
+}
+
+.caixa-topo > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 40px;
+}
+
+.caixa-topo > div img {
+    max-height: 100%;
+    max-width: 680px;
+    margin: 20px auto;
+}
+
+
+.caixa-topo > p {
+    color: #e85d04;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.secao-celulares {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.grade-celulares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    flex: 0 0 calc(25% - 24px);
+    min-width: 180px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.espaco-celular {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.card p {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.leia-mais {
+    margin-top: 8px;
+}
+
+.leia-mais summary {
+    cursor: pointer;
+    color: #e85d04;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.leia-mais > p {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.secao-textos {
+    background-color: #fff;
+    padding: 20px 40px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secao-textos > div {
+    margin-bottom: 28px;
+}
+
+.secao-textos > div > h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.secao-textos > div > p {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.7;
+}
+
+footer {
+    background-color: rgb(170, 57, 7);
+    color: white;
+    text-align: center;
+    padding: 16px 30px;
+    font-size: 15px;
+}
+
+.versao-PC{
+    display: block;
+}
+
+.versao-Mobile{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav{
+        justify-content: center;
+        padding: 0;
+    }
+
+    nav a{
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+    .topo{
+        padding: 15px 10px;
+    }
+
+    .caixa-topo{
+        width: 95%;
+        padding: 20px 15px;
+    }
+
+    .caixa-topo h1{
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .versao-PC{
+        display: none;
+    }
+
+    .versao-Mobile{
+        display: block;
+        width: 70%;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .caixa-topo p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .grade-celulares{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .card{
+        flex: none;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .card img{
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .card h3{
+        font-size: 22px;
+    }
+
+    .secao-textos{
+        padding: 20px;
+    }
+
+    .secao-textos h2{
+        font-size: 18px;
+    }
+
+    .secao-textos p{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
